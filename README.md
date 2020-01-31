@@ -14,12 +14,19 @@ compile the exact version of tensorflow on your arm you needed
 
 1.
   sudo apt-get install docker.io
+  
   then
+  
   sudo systemctl start docker
+  
   sudo systemctl enable docker
+  
   check whether it's done correctly.
+  
   docker -v
+  
   docker run --rm hello-world
+  
   
 2.
   git clone https://github.com/tensorflow/tensorflow.git
